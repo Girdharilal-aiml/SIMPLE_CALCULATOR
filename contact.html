@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-content">
+        <div class="logo">Simple Calculator</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <div class="contact-form">
+        <form id="contactForm">
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="name">
+                <div class="error" id="nameError">Enter Name</div>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="email">
+                <div class="error" id="emailError">Enter Email</div>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea id="message"></textarea>
+                <div class="error" id="messageError">Enter Message</div>
+            </div>
+
+            <button type="submit" class="submit-btn">Send</button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    © 2025 Simple Calculator
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

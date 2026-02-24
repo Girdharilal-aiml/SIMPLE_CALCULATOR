@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-content">
+        <div class="logo">Simple Calculator</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <h1 style="text-align:center; margin-bottom: 20px;">Simple Calculator</h1>
+
+    <div class="calculator-container">
+        <div class="calculator-display">
+            <div class="calculator-history" id="history"></div>
+            <div class="calculator-result" id="result">0</div>
+        </div>
+
+        <div class="calculator-buttons">
+            <button class="calculator-btn clear" id="clear">C</button>
+            <button class="calculator-btn clear" id="clear-entry">CE</button>
+            <button class="calculator-btn operator" data-value="%">%</button>
+            <button class="calculator-btn operator" data-value="/">/</button>
+
+            <button class="calculator-btn" data-value="7">7</button>
+            <button class="calculator-btn" data-value="8">8</button>
+            <button class="calculator-btn" data-value="9">9</button>
+            <button class="calculator-btn operator" data-value="*">*</button>
+
+            <button class="calculator-btn" data-value="4">4</button>
+            <button class="calculator-btn" data-value="5">5</button>
+            <button class="calculator-btn" data-value="6">6</button>
+            <button class="calculator-btn operator" data-value="-">-</button>
+
+            <button class="calculator-btn" data-value="1">1</button>
+            <button class="calculator-btn" data-value="2">2</button>
+            <button class="calculator-btn" data-value="3">3</button>
+            <button class="calculator-btn operator" data-value="+">+</button>
+
+            <button class="calculator-btn" data-value="0">0</button>
+            <button class="calculator-btn" data-value=".">.</button>
+            <button class="calculator-btn equals" id="equals">=</button>
+        </div>
+    </div>
+</main>
+
+<footer>
+    © 2025 Simple Calculator
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
